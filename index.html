@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stealth Taktikal</title>
+    <style>
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css');
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css');
+        @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900?display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Roboto, sans-serif;
+            background: #333;
+        }
+        .sidebar {
+            width: 232px;
+            background-color: #111;
+            height: 100vh;
+            position: fixed;
+        }
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 20px;
+            text-align: center;
+        }
+        .sidebar a:hover {
+            background-color: #333;
+        }
+        .container {
+            margin-left: 232px;
+            padding: 20px;
+        }
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+        .card {
+            background-color: #555;
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            margin-bottom: 20px;
+        }
+        .long-card {
+            background-color: #555;
+            width: calc(100% - 272px);
+            height: 400px;
+            border-radius: 10px;
+            color: white;
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+    </style>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="https://jasonalexanderchase.github.io/portfoliohome/"><i class="fa fa-home"></i> HOME</a>
+        <a href="https://jasonalexanderchase.github.io/portfoliohome/"><i class="fa fa-tachometer"></i> DASHBOARD</a>
+        <a href="https://jasonalexanderchase.github.io/portfoliohome/"><i class="fa fa-bar-chart"></i> DATA VISUALIZATION</a>
+        <a href="https://jasonalexanderchase.github.io/portfoliohome/"><i class="fa fa-envelope"></i> COMMUNIQUÉ</a>
+        <a href="https://jasonalexanderchase.github.io/portfoliohome/"><i class="fa fa-code"></i> CODE EDITOR</a>
+        <a href="https://jasonalexanderchase.github.io/portfoliohome/"><i class="fa fa-database"></i> SQL PORTFOLIO</a>
+        <!-- Repeat the links to fill up the sidebar -->
+        <a href="https://jasonalexanderchase.github.io/portfoliohome/"><i class="fa fa-home"></i> HOME</a>
+        <a href="https://jasonalexanderchase.github.io/portfoliohome/"><i class="fa fa-tachometer"></i> DASHBOARD</a>
+        <a href="https://jasonalexanderchase.github.io/portfoliohome/"><i class="fa fa-bar-chart"></i> DATA VISUALIZATION</a>
+        <a href="https://jasonalexanderchase.github.io/portfoliohome/"><i class="fa fa-envelope"></i> COMMUNIQUÉ</a>
+        <a href="https://jasonalexanderchase.github.io/portfoliohome/"><i class="fa fa-code"></i> CODE EDITOR</a>
+        <a href="https://jasonalexanderchase.github.io/portfoliohome/"><i class="fa fa-database"></i> SQL PORTFOLIO</a>
+    </div>
+    <div class="container">
+        <div class="long-card" id="chart1"></div>
+        <div class="long-card" id="chart2"></div>
+        <div class="card-container">
+            <div class="card" id="card1">Card 1</div>
+            <div class="card" id="card2">Card 2</div>
+            <div class="card" id="card3">Card 3</div>
+            <div class="card" id="card4">Card 4</div>
+            <div class="card" id="card5">Card 5</div>
+            <div class="card" id="card6">Card 6</div>
+            <div class="card" id="card7">Card 7</div>
+            <div class="card" id="card8">Card 8</div>
+        </div>
+    </div>
+    <script>
+        // Chart 1: Revenue by Genre
+        Highcharts.chart('chart1', {
+            chart: {
+                type: 'bar',
+                backgroundColor: '#555',
+            },
+            title: {
+                text: 'Revenue by Genre',
+                style: {
+                    color: '#FFFFFF'
+                }
+            },
+            xAxis: {
+                categories: ['Action', 'Adventure', 'Comedy', 'Drama', 'Horror', 'Sci-Fi'],
+                labels: {
+                    style: {
+                        color: '#FFFFFF'
+                    }
+                }
+            },
+            yAxis: {
+                title: {
+                    text: 'Revenue (in millions)',
+                    style: {
+                        color: '#FFFFFF'
+                    }
+                },
+                labels: {
+                    style: {
+                        color: '#FFFFFF'
+                    }
+                }
+            },
+            series: [{
+                name: 'Revenue',
+                data: [1500, 1200, 1000, 800, 600, 400],
+                color: '#1a75ff',
+                borderColor: '#1a75ff',
+                borderRadius: 5
+            }],
+            plotOptions: {
+                series: {
+                    borderRadius: 5
+                }
+            }
+        });
+
+        // Chart 2: Weather Forecast (Placeholder Data)
+        Highcharts.chart('chart2', {
+            chart: {
+                type: 'column',
+                backgroundColor: '#555',
+            },
+            title: {
+                text: 'Weather Forecast',
+                style: {
+                    color: '#FFFFFF'
+                }
+            },
+            xAxis: {
+                categories: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+                labels: {
+                    style: {
+                        color: '#FFFFFF'
+                    }
+                }
+            },
+            yAxis: {
+                title: {
+                    text: 'Temperature (°C)',
+                    style: {
+                        color: '#FFFFFF'
+                    }
+                },
+                labels: {
+                    style: {
+                        color: '#FFFFFF'
+                    }
+                }
+            },
+            series: [{
+                name: 'Temperature',
+                data: [15, 17, 20, 22, 18, 16, 19],
+                color: '#28a745',
+                borderColor: '#28a745',
+                borderRadius: 5
+            }],
+            plotOptions: {
+                series: {
+                    borderRadius: 5
+                }
+            }
+        });
+
+        // Additional cards (placeholders)
+        document.getElementById('card1').innerHTML = '<i class="fa fa-clock-o"></i> Time: ' + new Date().toLocaleTimeString();
+        document.getElementById('card2').innerHTML = '<i class="fa fa-calendar"></i> Date: ' + new Date().toLocaleDateString();
+        document.getElementById('card3').innerHTML = '<i class="fa fa-map-marker"></i> Location: Placeholder';
+        document.getElementById('card4').innerHTML = '<i class="fa fa-thermometer-half"></i> Temperature: 22°C';
+        document.getElementById('card5').innerHTML = '<i class="fa fa-cloud"></i> Weather: Sunny';
+        document.getElementById('card6').innerHTML = '<i class="fa fa-tint"></i> Humidity: 60%';
+        document.getElementById('card7').innerHTML = '<i class="fa fa-wind"></i> Wind Speed: 10 km/h';
+        document.getElementById('card8').innerHTML = '<i class="fa fa-info-circle"></i> Info: Placeholder';
+
+    </script>
+</body>
+</html>
