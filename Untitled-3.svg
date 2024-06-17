@@ -1,0 +1,284 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="2000" width="1920" viewBox="0 0 1920 2000" preserveAspectRatio="xMinYMin slice">
+    <title>Stealth Taktikal</title>
+    <style>
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css');
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css');
+        @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900?display=swap');
+        .svg { position: relative; width: 100%; height: 100%; padding: 0; background-size: cover; padding-bottom: 10%; }
+        text { font-family: Roboto, sans-serif; font-weight: 300; font-size: 14px; fill: white; }
+        .text:hover { fill: #A75; }
+        .cards { stroke: #000; }
+        .cards:hover { stroke: #2C5CB6; transition-duration: .1s; transition-delay: .05s; stroke-width: 10px; }
+        .introanimation:hover { animation: swapper .1s .1s linear forwards; animation-timing-function: cubic-bezier(.5, .8, .9, 1); animation-iteration-count: 2; }
+        .top-bar { background-image: linear-gradient(90deg, #010101, #333, #010101); }
+        .sidebar-icon { stroke: white; fill: none; stroke-width: 2; }
+        .sidebar-icon:hover { stroke: #A75; }
+        @keyframes swapper {
+            0% { stroke: #2C5CB6; stroke-width: 1; }
+            69% { stroke: #2C5CB6; stroke-width: 1; }
+            70% { stroke: blue; stroke-width: 5; }
+            90% { stroke: #7d0000; }
+            100% { stroke: #7d0000; stroke-width: 1px; }
+        }
+    </style>
+    <defs>
+        <a href="#" class="STEALTH"><text id="tacktical"></text></a>
+        <path id="b" d="M0 0h214v28H10V0z"/>
+        <path id="c" d="M0 0h1920v73H0V0z"/>
+        <path id="a" d="M0 0h1920v2000H0z"/>
+        <path id="z" d="M0 0L510 0L510 370L0 370L0 0Z"/>
+        <linearGradient id="MyGradient">
+            <stop offset="0%" stop-color="#111"/>
+            <stop offset="35%" stop-color="#333"/>
+            <stop offset="65%" stop-color="#333"/>
+            <stop offset="90%" stop-color="#111"/>
+        </linearGradient>
+    </defs>
+    <use fill="#111" xlink:href="#a"/>
+    <path fill="#7d0000" d="M232 43h1920v72H232V43z"/>
+    <path d="M0 0h232v2000H0V0z"/>
+
+    <g transform="translate(1.5 102)"><use fill='#666' xlink:href='#b' /></g>
+    <use xlink:href="#e"/>
+    <g transform="translate(1.5 102)"><use fill="#1A1A1A" xlink:href="#b"/></g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+
+    <!-- Sidebar Links -->
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/">
+        <text class="text" x="50" y="120" text-anchor="middle">Home</text>
+        <path class="sidebar-icon" d="M190 110h-20v20h20z"/>
+    </a>
+    <g transform="translate(1.5 161)">
+        <use fill="#1A1A1A" xlink:href="#b"/>
+    </g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/">
+        <text class="text" x="60" y="180" text-anchor="middle">Dashboard</text>
+        <path class="sidebar-icon" d="M170 170h-20v20h20z"/>
+    </a>
+    <g transform="translate(1.5 221)">
+        <use fill="#1A1A1A" xlink:href="#b"/>
+    </g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/">
+        <text class="text" x="104" y="240" text-anchor="middle">Data Visualization</text>
+        <path class="sidebar-icon" d="M144 230h-20v20h20z"/>
+    </a>
+    <g transform="translate(1.5 281)">
+        <use fill="#1A1A1A" xlink:href="#b"/>
+    </g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/">
+        <text class="text" x="122" y="300" text-anchor="middle">Communiqué</text>
+        <path class="sidebar-icon" d="M152 290h-20v20h20z"/>
+    </a>
+    <g transform="translate(1.5 341)">
+        <use fill="#1A1A1A" xlink:href="#b"/>
+    </g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/">
+        <text class="text" x="125" y="361" text-anchor="middle">Code Editor</text>
+        <path class="sidebar-icon" d="M155 351h-20v20h20z"/>
+    </a>
+    <g transform="translate(1.5 401)">
+        <use fill="#1A1A1A" xlink:href="#b"/>
+    </g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/">
+        <text class="text" x="115" y="421" text-anchor="middle">SQL Portfolio</text>
+        <path class="sidebar-icon" d="M145 411h-20v20h20z"/>
+    </a>
+    <g transform="translate(1.5 461)">
+        <use fill="#1A1A1A" xlink:href="#b"/>
+    </g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+
+    <!-- Repeat the links to fill up the sidebar -->
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/">
+        <text class="text" x="50" y="480" text-anchor="middle">Home</text>
+        <path class="sidebar-icon" d="M190 470h-20v20h20z"/>
+    </a>
+    <g transform="translate(1.5 521)">
+        <use fill="#1A1A1A" xlink:href="#b"/>
+    </g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/">
+        <text class="text" x="130" y="540" text-anchor="middle">Dashboard</text>
+        <path class="sidebar-icon" d="M170 530h-20v20h20z"/>
+    </a>
+    <g transform="translate(1.5 581)">
+        <use fill="#1A1A1A" xlink:href="#b"/>
+    </g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/">
+        <text class="text" x="104" y="600" text-anchor="middle">Data Visualization</text>
+        <path class="sidebar-icon" d="M144 590h-20v20h20z"/>
+    </a>
+    <g transform="translate(1.5 641)">
+        <use fill="#1A1A1A" xlink:href="#b"/>
+    </g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/">
+        <text class="text" x="122" y="660" text-anchor="middle">Communiqué</text>
+        <path class="sidebar-icon" d="M152 650h-20v20h20z"/>
+    </a>
+    <g transform="translate(1.5 701)">
+        <use fill="#1A1A1A" xlink:href="#b"/>
+    </g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/">
+        <text class="text" x="125" y="720" text-anchor="middle">Code Editor</text>
+        <path class="sidebar-icon" d="M155 710h-20v20h20z"/>
+    </a>
+    <g transform="translate(1.5 761)">
+        <use fill="#1A1A1A" xlink:href="#b"/>
+    </g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/">
+        <text class="text" x="115" y="780" text-anchor="middle">SQL Portfolio</text>
+        <path class="sidebar-icon" d="M145 770h-20v20h20z"/>
+    </a>
+    <g transform="translate(1.5 821)">
+        <use fill="#1A1A1A" xlink:href="#b"/>
+    </g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+
+    <!-- Repeat more links as needed to fill the sidebar -->
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/">
+        <text class="text" x="50" y="840" text-anchor="middle">Home</text>
+        <path class="sidebar-icon" d="M190 830h-20v20h20z"/>
+    </a>
+    <g transform="translate(1.5 881)">
+        <use fill="#1A1A1A" xlink:href="#b"/>
+    </g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/">
+        <text class="text" x="130" y="900" text-anchor="middle">Dashboard</text>
+        <path class="sidebar-icon" d="M170 890h-20v20h20z"/>
+    </a>
+    <g transform="translate(1.5 941)">
+        <use fill="#1A1A1A" xlink:href="#b"/>
+    </g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/">
+        <text class="text" x="104" y="960" text-anchor="middle">Data Visualization</text>
+        <path class="sidebar-icon" d="M144 950h-20v20h20z"/>
+    </a>
+    <g transform="translate(1.5 1001)">
+        <use fill="#1A1A1A" xlink:href="#b"/>
+    </g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/">
+        <text class="text" x="122" y="1020" text-anchor="middle">Communiqué</text>
+        <path class="sidebar-icon" d="M152 1010h-20v20h20z"/>
+    </a>
+    <g transform="translate(1.5 1061)">
+        <use fill="#1A1A1A" xlink:href="#b"/>
+    </g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/">
+        <text class="text" x="125" y="1080" text-anchor="middle">Code Editor</text>
+        <path class="sidebar-icon" d="M155 1070h-20v20h20z"/>
+    </a>
+    <g transform="translate(1.5 1121)">
+        <use fill="#1A1A1A" xlink:href="#b"/>
+    </g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/">
+        <text class="text" x="115" y="1140" text-anchor="middle">SQL Portfolio</text>
+        <path class="sidebar-icon" d="M145 1130h-20v20h20z"/>
+    </a>
+    <g transform="translate(1.5 1181)">
+        <use fill="#1A1A1A" xlink:href="#b"/>
+    </g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+
+    <!-- Repeat more links if necessary -->
+
+    <!-- Card Play Layouts -->
+    <g transform="translate(254 150)">
+        <path d="M0 0L1607 0L1607 384L0 384L0 0Z" transform="translate(3 3)" class="cards introanimation"/>
+    </g>
+    <g transform="translate(254 582)">
+        <use fill="#000000" xlink:href="#z" class="cards introanimation"/>
+    </g>
+    <g transform="translate(804 582)">
+        <use fill="#000000" xlink:href="#z" class="cards introanimation"/>
+    </g>
+    <g transform="translate(1354 582)">
+        <use fill="#000000" xlink:href="#z" class="cards introanimation"/>
+    </g>
+    <use xlink:href="#c" fill="url(#MyGradient)"/>
+    <use xlink:href="tacktical" class="STEALTH" height="10%" style="position:relative" width="20%" fill="white" x="10" y="5"/>
+
+    <!-- Revenue by Music Genre Chart -->
+    <g id="chart1" transform="translate(254 150)">
+        <rect x="50" y="50" width="70" height="300" class="bar" fill="#4B0082"/>
+        <text x="85" y="370" text-anchor="middle" fill="white">EDM</text>
+        <rect x="140" y="100" width="70" height="250" class="bar" fill="#8A2BE2"/>
+        <text x="175" y="370" text-anchor="middle" fill="white">Dubstep</text>
+        <rect x="230" y="150" width="70" height="200" class="bar" fill="#5F9EA0"/>
+        <text x="265" y="370" text-anchor="middle" fill="white">Deep Dubstep</text>
+        <rect x="320" y="200" width="70" height="150" class="bar" fill="#D2691E"/>
+        <text x="355" y="370" text-anchor="middle" fill="white">Tech Step</text>
+        <rect x="410" y="250" width="70" height="100" class="bar" fill="#FF7F50"/>
+        <text x="445" y="370" text-anchor="middle" fill="white">Signal Trance</text>
+        <rect x="500" y="300" width="70" height="50" class="bar" fill="#6495ED"/>
+        <text x="535" y="370" text-anchor="middle" fill="white">Hip Hop</text>
+        <rect x="590" y="350" width="70" height="0" class="bar" fill="#FF4500"/>
+        <text x="625" y="370" text-anchor="middle" fill="white">Gangster Rap</text>
+        <rect x="680" y="400" width="70" height="0" class="bar" fill="#DA70D6"/>
+        <text x="715" y="370" text-anchor="middle" fill="white">Drum and Bass</text>
+        <rect x="770" y="450" width="70" height="0" class="bar" fill="#9932CC"/>
+        <text x="805" y="370" text-anchor="middle" fill="white">Hard Techno</text>
+        <rect x="860" y="500" width="70" height="0" class="bar" fill="#FF1493"/>
+        <text x="895" y="370" text-anchor="middle" fill="white">Melodic Techno</text>
+        <rect x="950" y="550" width="70" height="0" class="bar" fill="#00CED1"/>
+        <text x="985" y="370" text-anchor="middle" fill="white">Neurofunk</text>
+        <rect x="1040" y="600" width="70" height="0" class="bar" fill="#1E90FF"/>
+        <text x="1075" y="370" text-anchor="middle" fill="white">Deep Tech Step</text>
+        <rect x="1130" y="650" width="70" height="0" class="bar" fill="#FF6347"/>
+        <text x="1165" y="370" text-anchor="middle" fill="white">Liquid Drum and Bass</text>
+    </g>
+
+    <!-- 10-Day Weather Forecast Chart -->
+    <g id="chart2" transform="translate(254 582)">
+        <rect x="50" y="50" width="30" height="300" class="bar" fill="#ff0000"/>
+        <text x="65" y="370" text-anchor="middle" fill="white">Day 1</text>
+        <rect x="100" y="80" width="30" height="270" class="bar" fill="#ff4000"/>
+        <text x="115" y="370" text-anchor="middle" fill="white">Day 2</text>
+        <rect x="50" y="110" width="30" height="240" class="bar" fill="#ff8000"/>
+        <text x="165" y="370" text-anchor="middle" fill="white">Day 3</text>
+        <rect x="200" y="140" width="30" height="210" class="bar" fill="#ffbf00"/>
+        <text x="215" y="370" text-anchor="middle" fill="white">Day 4</text>
+        <rect x="250" y="170" width="30" height="180" class="bar" fill="#ffff00"/>
+        <text x="265" y="370" text-anchor="middle" fill="white">Day 5</text>
+        <rect x="300" y="200" width="30" height="150" class="bar" fill="#bfff00"/>
+        <text x="315" y="370" text-anchor="middle" fill="white">Day 6</text>
+        <rect x="350" y="230" width="30" height="120" class="bar" fill="#80ff00"/>
+        <text x="365" y="370" text-anchor="middle" fill="white">Day 7</text>
+        <rect x="400" y="260" width="30" height="90" class="bar" fill="#40ff00"/>
+        <text x="415" y="370" text-anchor="middle" fill="white">Day 8</text>
+        <rect x="450" y="290" width="30" height="60" class="bar" fill="#00ff00"/>
+        <text x="465" y="370" text-anchor="middle" fill="white">Day 9</text>
+        <rect x="500" y="320" width="30" height="30" class="bar" fill="#00ff80"/>
+        <text x="515" y="370" text-anchor="middle" fill="white">Day 10</text>
+    </g>
+</svg>

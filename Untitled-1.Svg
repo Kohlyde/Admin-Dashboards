@@ -1,0 +1,128 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg class="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1080" width="1920" viewBox="0 0 1920 1080" preserveAspectRatio="xMinYMin slice">
+    <title>Stealth Taktikal</title>
+    <style>
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css');
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css');
+        @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900?display=swap');
+        .svg { position: relative; width: 100%; height: 100%; padding: 0; background-size: cover; padding-bottom: 10%; }
+        text { font-family: Roboto, sans-serif; font-weight: 300; font-size: 14px; fill: white; }
+        .text:hover { fill: #00b7ff; }
+        .cards { stroke: #000; }
+        .cards:hover { stroke: #2C5CB6; transition-duration: .1s; transition-delay: .05s; stroke-width: 10px; }
+        .introanimation:hover { animation: swapper .1s .1s linear forwards; animation-timing-function: cubic-bezier(.5, .8, .9, 1); animation-iteration-count: 2; }
+        .top-bar { background-image: linear-gradient(90deg, #010101, #333, #010101); }
+        @keyframes swapper {
+            0% { stroke: #2C5CB6; stroke-width: 1; }
+            69% { stroke: #2C5CB6; stroke-width: 1; }
+            70% { stroke: blue; stroke-width: 5; }
+            90% { stroke: #7d0000; }
+            100% { stroke: #7d0000; stroke-width: 1px; }
+        }
+    </style>
+    <defs>
+        <a href="#" class="STEALTH"><text id="tacktical"></text></a>
+        <path id="b" d="M0 0h214v28H10V0z"/>
+        <path id="c" d="M0 0h1920v73H0V0z"/>
+        <path id="a" d="M0 0h1920v1080H0z"/>
+        <path id="z" d="M0 0L510 0L510 370L0 370L0 0Z"/>
+        <linearGradient id="MyGradient">
+            <stop offset="0%" stop-color="#111"/>
+            <stop offset="35%" stop-color="#333"/>
+            <stop offset="65%" stop-color="#333"/>
+            <stop offset="90%" stop-color="#111"/>
+        </linearGradient>
+    </defs>
+    <use fill="#111" xlink:href="#a"/>
+    <path fill="#7d0000" d="M232 43h1920v72H232V43z"/>
+    <path d="M0 0h232v1080H0V0z"/>
+    <g transform='translate(1.5 102)'><use fill='#666' xlink:href='#b' /></g>
+    <use xlink:href="#e"/>
+    <g transform="translate(1.5 102)"><use fill="#1A1A1A" xlink:href="#b"/></g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/"><text class="text" x="150" y="120" text-anchor="middle">HOME </text></a>
+    <g><text class="text" x="190" y="120" style="font-family: FontAwesome;">&#xf015;</text></g>
+    <g transform="translate(1.5 161)"><use fill="#1A1A1A" xlink:href="#b"/></g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/"><text class="text" x="130" y="180" text-anchor="middle">DASHBOARD </text></a>
+    <g><text class="text" x="190" y="180" style="font-family: FontAwesome;">&#xf0e4;</text></g>
+    <g transform="translate(1.5 221)"><use fill="#1A1A1A" xlink:href="#b"/></g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/"><text class="text" x="104" y="240" text-anchor="middle">DATA VISUALIZATION</text></a>
+    <g><text class="text" x="190" y="240" style="font-family: FontAwesome;">&#xf200;</text></g>
+    <g transform="translate(1.5 281)"><use fill="#1A1A1A" xlink:href="#b"/></g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/"><text class="text" x="122" y="300" text-anchor="middle">COMMUNIQUÉ</text></a>
+    <g><text class="text" x="190" y="300" style="font-family: FontAwesome;">&#xf674;</text></g>
+    <g transform="translate(1.5 341)"><use fill="#1A1A1A" xlink:href="#b"/></g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/"><text class="text" x="125" y="361" text-anchor="middle">CODE EDITOR</text></a>
+    <g><text class="text" x="190" y="361" style="font-family: FontAwesome;">&#xf015;</text></g>
+    <g transform="translate(1.5 401)"><use fill="#1A1A1A" xlink:href="#b"/></g>
+    <path d="M1884 43h36v1037h-36V43z"/>
+    <a href="https://jasonalexanderchase.github.io/portfoliohome/"><text class="text" x="115" y="421" text-anchor="middle">SQL PORTFOLIO</text></a>
+    <g><text class="text" x="190" y="421" style="font-family: FontAwesome;">&#xf015;</text></g>
+
+    <!-- Card Play Layouts -->
+    <g transform="translate(254 150)">
+        <path d="M0 0L1607 0L1607 384L0 384L0 0Z" transform="translate(3 3)" class="cards introanimation"/>
+    </g>
+    <g transform="translate(254 582)">
+        <use fill="#000000" xlink:href="#z" class="cards introanimation"/>
+    </g>
+    <g transform="translate(804 582)">
+        <use fill="#000000" xlink:href="#z" class="cards introanimation"/>
+    </g>
+    <g transform="translate(1354 582)">
+        <use fill="#000000" xlink:href="#z" class="cards introanimation"/>
+    </g>
+    <use xlink:href="#c" fill="url(#MyGradient)"/>
+    <use xlink:href="tacktical" class="STEALTH" height="10%" style="postion:relative" width="20%" fill="white" x="10" y="5"/>
+
+    <!-- Revenue by Music Genre Chart -->
+    <g id="chart1" transform="translate(254 150)">
+        <rect x="50" y="50" width="100" height="300" class="bar" fill="#1a75ff"/>
+        <text x="100" y="370" text-anchor="middle" fill="white">Pop</text>
+        <rect x="200" y="100" width="100" height="250" class="bar" fill="#1a75ff"/>
+        <text x="250" y="370" text-anchor="middle" fill="white">Rock</text>
+        <rect x="350" y="150" width="100" height="200" class="bar" fill="#1a75ff"/>
+        <text x="400" y="370" text-anchor="middle" fill="white">Hip-Hop</text>
+        <rect x="500" y="200" width="100" height="150" class="bar" fill="#1a75ff"/>
+        <text x="550" y="370" text-anchor="middle" fill="white">Jazz</text>
+        <rect x="650" y="250" width="100" height="100" class="bar" fill="#1a75ff"/>
+        <text x="700" y="370" text-anchor="middle" fill="white">Classical</text>
+        <rect x="800" y="300" width="100" height="50" class="bar" fill="#1a75ff"/>
+        <text x="850" y="370" text-anchor="middle" fill="white">Country</text>
+    </g>
+
+    <!-- 10-Day Weather Forecast Chart -->
+    <g id="chart2" transform="translate(254 582)">
+        <defs>
+            <linearGradient id="grad" x1="0" x2="0" y1="0" y2="1">
+                <stop offset="0%" style="stop-color:red;stop-opacity:1"/>
+                <stop offset="100%" style="stop-color:blue;stop-opacity:1"/>
+            </linearGradient>
+        </defs>
+        <rect x="50" y="50" width="50" height="300" class="bar" fill="url(#grad)"/>
+        <text x="75" y="370" text-anchor="middle" fill="white">Day 1</text>
+        <rect x="150" y="80" width="50" height="270" class="bar" fill="url(#grad)"/>
+        <text x="175" y="370" text-anchor="middle" fill="white">Day 2</text>
+        <rect x="250" y="110" width="50" height="240" class="bar" fill="url(#grad)"/>
+        <text x="275" y="370" text-anchor="middle" fill="white">Day 3</text>
+        <rect x="350" y="140" width="50" height="210" class="bar" fill="url(#grad)"/>
+        <text x="375" y="370" text-anchor="middle" fill="white">Day 4</text>
+        <rect x="450" y="170" width="50" height="180" class="bar" fill="url(#grad)"/>
+        <text x="475" y="370" text-anchor="middle" fill="white">Day 5</text>
+        <rect x="550" y="200" width="50" height="150" class="bar" fill="url(#grad)"/>
+        <text x="575" y="370" text-anchor="middle" fill="white">Day 6</text>
+        <rect x="650" y="230" width="50" height="120" class="bar" fill="url(#grad)"/>
+        <text x="675" y="370" text-anchor="middle" fill="white">Day 7</text>
+        <rect x="750" y="260" width="50" height="90" class="bar" fill="url(#grad)"/>
+        <text x="775" y="370" text-anchor="middle" fill="white">Day 8</text>
+        <rect x="850" y="290" width="50" height="60" class="bar" fill="url(#grad)"/>
+        <text x="875" y="370" text-anchor="middle" fill="white">Day 9</text>
+        <rect x="950" y="320" width="50" height="30" class="bar" fill="url(#grad)"/>
+        <text x="975" y="370" text-anchor="middle" fill="white">Day 10</text>
+    </g>
+</svg>
